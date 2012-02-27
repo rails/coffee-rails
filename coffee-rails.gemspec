@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Santiago Pastorino"]
   s.email       = ["santiago@wyeworks.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/rails/coffee-rails"
   s.summary     = %q{Coffee Script adapter for the Rails asset pipeline.}
   s.description = %q{Coffee Script adapter for the Rails asset pipeline.}
 
