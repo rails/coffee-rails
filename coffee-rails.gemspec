@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Santiago Pastorino"]
   s.email       = ["santiago@wyeworks.com"]
   s.homepage    = "https://github.com/rails/coffee-rails"
-  s.summary     = %q{Coffee Script adapter for the Rails asset pipeline.}
-  s.description = %q{Coffee Script adapter for the Rails asset pipeline.}
+  s.summary     = %q{CoffeeScript adapter for the Rails asset pipeline.}
+  s.description = %q{CoffeeScript adapter for the Rails asset pipeline.}
 
   s.rubyforge_project = "coffee-rails"
 

@@ -1,6 +1,6 @@
 # Coffee-Rails
 
-Coffee Script adapter for the Rails asset pipeline. Also adds support to use CoffeeScript to respond to JavaScript requests (use .js.coffee views).
+CoffeeScript adapter for the Rails asset pipeline. Also adds support to use CoffeeScript to respond to JavaScript requests (use .js.coffee views).
 
 ## Installation
 
