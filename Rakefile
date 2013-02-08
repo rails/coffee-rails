@@ -10,6 +10,8 @@ Rake::TestTask.new(:test) do |t|
   t.verbose = false
 end
 
+task default: :test
+
 specname = "coffee-rails.gemspec"
 deps = `git ls-files`.split("\n") - [specname]
 
