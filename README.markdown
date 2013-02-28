@@ -8,7 +8,7 @@ Since Rails 3.1 Coffee-Rails is included in the default Gemfile when you create 
 
     gem 'coffee-rails'
 
-If you are precompiling your assets (with rake assets:precompile) before run your application in production, you might want add it to the assets group to prevent the gem being required in the production environment.
+If you are precompiling your assets (with rake assets:precompile) before run your application in production, you might want add it to the assets group to prevent the gem being required in the production environment. _Note that this may prevent you from using Coffeescript for UJS responses_.
 
     group :assets do
       gem 'coffee-rails'
