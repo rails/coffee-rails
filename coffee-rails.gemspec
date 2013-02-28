@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.test_files    = ["test/assets_generator_test.rb","test/assets_test.rb","test/controller_generator_test.rb","test/scaffold_generator_test.rb","test/support/routes.rb","test/support/site/index.js.coffee","test/template_handler_test.rb","test/test_helper.rb"]
   s.executables   = []
   s.require_paths = ["lib"]
+  s.license = "MIT"
 end
