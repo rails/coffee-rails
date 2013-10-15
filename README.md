@@ -20,3 +20,8 @@ If you are precompiling your assets (with rake assets:precompile) before run you
     $ bundle exec rake test
 
 If you need to test against local gems, use Bundler's gem :path option in the Gemfile.
+
+## Code Status
+
+* [![Build Status](https://travis-ci.org/rails/coffee-rails.png)](https://travis-ci.org/rails/coffee-rails)
+* [![Dependency Status](https://gemnasium.com/rails/coffee-rails.png)](https://gemnasium.com/rails/coffee-rails)
