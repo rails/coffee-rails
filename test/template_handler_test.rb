@@ -1,8 +1,10 @@
 require 'test_helper'
 require 'action_controller'
+require 'action_view'
 require 'coffee-rails'
 
 class SiteController < ActionController::Base
+  include ::ActionView::Rendering if Rails.version > '4.1'
   self.view_paths = File.expand_path("../support", __FILE__)
 end
 
