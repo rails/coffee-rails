@@ -1,3 +1,8 @@
+## 4.1.2 (June 30, 2016) ##
+
+*  Add hook for generating coffee assets for Action Cable channel
+   generators.
+
 ## 4.1.1 (December 18, 2015) ##
 
 *   Allow Rails 5.
@@ -16,7 +21,7 @@
 
 ## 4.0.1 (October 17, 2013) ##
 
-*   Drop support to Rails `4.0.0.rc` releases
+*   Drop support to Rails `4.0.0.rc` releases.
 
     *Rafael Mendonça França*
 
