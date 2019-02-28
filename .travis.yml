@@ -25,6 +25,12 @@ matrix:
   exclude:
     - gemfile: Gemfile
     - gemfile: gemfiles/Gemfile-4-0-stable
+      rvm: 2.3
+    - gemfile: gemfiles/Gemfile-4-1-stable
+      rvm: 2.3
+    - gemfile: gemfiles/Gemfile-4-2-stable
+      rvm: 2.3
+    - gemfile: gemfiles/Gemfile-4-0-stable
       rvm: 2.4
     - gemfile: gemfiles/Gemfile-4-1-stable
       rvm: 2.4
