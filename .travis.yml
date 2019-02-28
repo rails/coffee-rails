@@ -11,6 +11,7 @@ rvm:
   - 2.3
   - 2.4
   - 2.5
+  - 2.6
   - ruby-head
   - jruby-9.0.5.0
   - rbx-3
@@ -31,6 +32,10 @@ matrix:
       rvm: 2.5
     - gemfile: gemfiles/Gemfile-4-1-stable
       rvm: 2.5
+    - gemfile: gemfiles/Gemfile-4-0-stable
+      rvm: 2.6
+    - gemfile: gemfiles/Gemfile-4-1-stable
+      rvm: 2.6
     - gemfile: gemfiles/Gemfile-4-0-stable
       rvm: ruby-head
     - gemfile: gemfiles/Gemfile-4-1-stable
@@ -57,6 +62,8 @@ matrix:
       rvm: 2.4
     - gemfile: gemfiles/Gemfile-5-0-stable
       rvm: 2.5
+    - gemfile: gemfiles/Gemfile-5-0-stable
+      rvm: 2.6
     - gemfile: gemfiles/Gemfile-5-0-stable
       rvm: ruby-head
     - gemfile: gemfiles/Gemfile-5-0-stable
