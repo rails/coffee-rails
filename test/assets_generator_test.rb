@@ -8,6 +8,8 @@ class AssetGeneratorTest < Rails::Generators::TestCase
   setup :prepare_destination
 
   def test_assets
+    return if Rails::VERSION::MAJOR >= 6
+
     run_generator %w(posts)
     assert_no_file "app/assets/javascripts/posts.js"
     assert_file "app/assets/javascripts/posts.coffee"
