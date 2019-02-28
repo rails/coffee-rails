@@ -46,8 +46,6 @@ matrix:
     - gemfile: gemfiles/Gemfile-5-0-stable
   include:
     - gemfile: Gemfile
-      rvm: 2.4
-    - gemfile: Gemfile
       rvm: 2.5
     - gemfile: Gemfile
       rvm: ruby-head
