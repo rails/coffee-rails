@@ -6,11 +6,8 @@ module Coffee
       end
 
       def self.call(template, source = nil)
-        compiled_source = if source
-          erb_handler.call(template, source)
-        else
-          erb_handler.call(template)
-        end
+        source ||= template.source
+        compiled_source = erb_handler.call(template, source)
         "CoffeeScript.compile(begin;#{compiled_source};end)"
       end
     end
