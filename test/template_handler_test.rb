@@ -4,6 +4,15 @@ require 'coffee-rails'
 
 class SiteController < ActionController::Base
   self.view_paths = File.expand_path("../support", __FILE__)
+
+  # NOTE: Without this the index.html.erb template is selected
+  # when requesting index.js
+  # def index
+  #   respond_to do |format|
+  #     format.html
+  #     format.js { render formats: [:js] }
+  #   end
+  # end
 end
 
 DummyApp = ActionDispatch::Routing::RouteSet.new
