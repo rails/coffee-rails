@@ -1,41 +1,33 @@
 language: ruby
 cache: bundler
 dist: trusty
-rvm:
-  - 2.2
-  - 2.3
-  - 2.4
-  - 2.5
-  - 2.6
-  - 2.7
-  - ruby-head
-  - jruby-9.2.6.0
 matrix:
   include:
     - gemfile: Gemfile
       rvm: 2.7
     - gemfile: Gemfile
       rvm: ruby-head
+
     - gemfile: gemfiles/Gemfile-6-1-stable
       rvm: 2.7
     - gemfile: gemfiles/Gemfile-6-1-stable
       rvm: 2.6
     - gemfile: gemfiles/Gemfile-6-1-stable
       rvm: 2.5
+
     - gemfile: gemfiles/Gemfile-6-0-stable
       rvm: 2.6
     - gemfile: gemfiles/Gemfile-6-0-stable
       rvm: 2.5
     - gemfile: gemfiles/Gemfile-6-0-stable
       rvm: jruby-9.2.6.0
+
     - gemfile: gemfiles/Gemfile-5-2-stable
       rvm: 2.2
     - gemfile: gemfiles/Gemfile-5-2-stable
       rvm: 2.3
     - gemfile: gemfiles/Gemfile-5-2-stable
       rvm: 2.4
-    - gemfile: gemfiles/Gemfile-5-2-stable
-      rvm: ruby-head
   allow_failures:
     - rvm: ruby-head
   fast_finish: true
