@@ -1,4 +1,4 @@
-# Configure Rails Envinronment
+# Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
 
 require 'bundler/setup'
